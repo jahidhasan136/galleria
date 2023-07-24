@@ -65,7 +65,7 @@ const ExplainMetal = () => {
 
                             {/* CARD ONE */}
                             <SwiperSlide>
-                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                                     <div className='mb-4 relative'>
                                         <img className='w-full' src={roses.src} alt="" />
                                         <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full'>123 Collections</p>
@@ -85,7 +85,7 @@ const ExplainMetal = () => {
 
                             {/* CARD tWO */}
                             <SwiperSlide>
-                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                                     <div className='mb-4 relative'>
                                         <img className='w-full' src={temple.src} alt="" />
                                         <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full'>56 Collections</p>
@@ -104,7 +104,7 @@ const ExplainMetal = () => {
 
                             {/* CARD THREE */}
                             <SwiperSlide>
-                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                                     <div className='mb-4 relative'>
                                         <img className='w-full' src={building.src} alt="" />
                                         <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full'>234 Collections</p>
@@ -123,7 +123,7 @@ const ExplainMetal = () => {
 
                             {/* CARD FOUR */}
                             <SwiperSlide>
-                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                                     <div className='mb-4 relative'>
                                         <img className='w-full' src={roses.src} alt="" />
                                         <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full'>123 Collections</p>
@@ -143,7 +143,7 @@ const ExplainMetal = () => {
 
                             {/* CARD FIVE */}
                             <SwiperSlide>
-                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                                     <div className='mb-4 relative'>
                                         <img className='w-full' src={temple.src} alt="" />
                                         <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full'>56 Collections</p>
@@ -162,7 +162,7 @@ const ExplainMetal = () => {
 
                             {/* CARD SIX */}
                             <SwiperSlide>
-                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                                     <div className='mb-4 relative'>
                                         <img className='w-full' src={building.src} alt="" />
                                         <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full'>234 Collections</p>

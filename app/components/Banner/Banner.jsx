@@ -2,7 +2,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
-import { EffectCards } from 'swiper/modules';
+import { Autoplay, EffectCards } from 'swiper/modules';
 
 import Link from 'next/link'
 import BannerDotsBg from './images/dots-bg.png'
@@ -30,7 +30,11 @@ const Banner = () => {
                             <Swiper
                                 effect={'cards'}
                                 grabCursor={true}
-                                modules={[EffectCards]}
+                                loop={true}
+                                autoplay={{
+                                    delay: 2500
+                                }}
+                                modules={[Autoplay, EffectCards]}
                                 className="mySwiper"
                             >
                                 <SwiperSlide><img src={BannerThumb.src} alt="" /></SwiperSlide>

@@ -50,7 +50,7 @@ const ForSale = () => {
                     
                 >
                     <SwiperSlide>
-                        <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                        <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                             <div className='mb-4'>
                                 <img className='w-full' src={image1.src} alt="" />
                             </div>
@@ -66,7 +66,7 @@ const ForSale = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                        <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                             <div className='mb-4'>
                                 <img className='w-full' src={image2.src} alt="" />
                             </div>
@@ -82,7 +82,7 @@ const ForSale = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                        <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                             <div className='mb-4'>
                                 <img className='w-full' src={image3.src} alt="" />
                             </div>
@@ -98,7 +98,7 @@ const ForSale = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                        <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                             <div className='mb-4'>
                                 <img className='w-full' src={image3.src} alt="" />
                             </div>
@@ -114,7 +114,7 @@ const ForSale = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                        <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                             <div className='mb-4'>
                                 <img className='w-full' src={image3.src} alt="" />
                             </div>
@@ -130,7 +130,7 @@ const ForSale = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                        <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                             <div className='mb-4'>
                                 <img className='w-full' src={image3.src} alt="" />
                             </div>

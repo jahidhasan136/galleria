@@ -31,7 +31,7 @@ const FeaturedCollectionSecond = () => {
 
                 {/* card one */}
 
-                <div className='bg-[#ffffff0d] p-[30px] rounded-[14px] xl:w-[638px] xl:h-[530px] border border-transparent hover:border-[#6A00FF]'>
+                <div className='bg-[#ffffff0d] p-[30px] rounded-[14px] xl:w-[638px] xl:h-[530px] border border-transparent hover:border-[#6A00FF] transition-all'>
                     <div className='flex justify-between items-center'>
                         <div className='flex sm:items-center items-start gap-[14px]'>
                             <div className='relative'>
@@ -60,7 +60,7 @@ const FeaturedCollectionSecond = () => {
 
                 {/* card two */}
 
-                <div className='bg-[#ffffff0d] p-[30px] rounded-[14px] xl:w-[638px] xl:h-[530px] border border-transparent hover:border-[#6A00FF]'>
+                <div className='bg-[#ffffff0d] p-[30px] rounded-[14px] xl:w-[638px] xl:h-[530px] border border-transparent hover:border-[#6A00FF] transition-all'>
                     <div className='flex justify-between items-center'>
                         <div className='flex sm:items-center items-start gap-[14px]'>
                             <div className='relative'>
@@ -89,7 +89,7 @@ const FeaturedCollectionSecond = () => {
 
                 {/* card three */}
 
-                <div className='bg-[#ffffff0d] p-[30px] rounded-[14px] xl:w-[638px] xl:h-[530px] border border-transparent hover:border-[#6A00FF]'>
+                <div className='bg-[#ffffff0d] p-[30px] rounded-[14px] xl:w-[638px] xl:h-[530px] border border-transparent hover:border-[#6A00FF] transition-all'>
                     <div className='flex justify-between items-center'>
                         <div className='flex sm:items-center items-start gap-[14px]'>
                             <div className='relative'>
@@ -115,7 +115,7 @@ const FeaturedCollectionSecond = () => {
 
                 {/* card four */}
 
-                <div className='bg-[#ffffff0d] p-[30px] rounded-[14px] xl:w-[638px] xl:h-[530px] border border-transparent hover:border-[#6A00FF]'>
+                <div className='bg-[#ffffff0d] p-[30px] rounded-[14px] xl:w-[638px] xl:h-[530px] border border-transparent hover:border-[#6A00FF] transition-all'>
                     <div className='flex justify-between items-center'>
                         <div className='flex sm:items-center items-start gap-[14px]'>
                             <div className='relative'>

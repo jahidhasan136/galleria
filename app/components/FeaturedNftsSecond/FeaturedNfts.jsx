@@ -33,7 +33,7 @@ const FeaturedNftsSecond = () => {
 
                     {/* card one */}
 
-                    <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                    <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                         <div className='mb-4 relative'>
                             <img className='w-full' src={image1.src} alt="" />
                             <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full flex items-center'><AiFillHeart className='text-[#CE2929]'></AiFillHeart> 120</p>
@@ -59,7 +59,7 @@ const FeaturedNftsSecond = () => {
 
                     {/* card two */}
 
-                    <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                    <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                         <div className='mb-4 relative'>
                             <img className='w-full' src={image2.src} alt="" />
                             <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full flex items-center'><AiFillHeart className='text-[#CE2929]'></AiFillHeart> 90</p>
@@ -85,7 +85,7 @@ const FeaturedNftsSecond = () => {
 
                     {/* card three */}
 
-                    <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                    <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                         <div className='mb-4 relative'>
                             <img className='w-full' src={image3.src} alt="" />
                             <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full flex items-center'><AiFillHeart className='text-[#CE2929]'></AiFillHeart> 145</p>
@@ -111,7 +111,7 @@ const FeaturedNftsSecond = () => {
 
                     {/* card four */}
 
-                    <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                    <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                         <div className='mb-4 relative'>
                             <img className='w-full' src={image4.src} alt="" />
                             <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full flex items-center'><AiFillHeart className='text-[#CE2929]'></AiFillHeart> 145</p>
@@ -137,7 +137,7 @@ const FeaturedNftsSecond = () => {
 
                     {/* card five */}
 
-                    <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                    <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                         <div className='mb-4 relative'>
                             <img className='w-full' src={image5.src} alt="" />
                             <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full flex items-center'><AiFillHeart className='text-[#CE2929]'></AiFillHeart> 90</p>
@@ -163,7 +163,7 @@ const FeaturedNftsSecond = () => {
 
                     {/* card six */}
 
-                    <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                    <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                         <div className='mb-4 relative'>
                             <img className='w-full' src={image6.src} alt="" />
                             <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full flex items-center'><AiFillHeart className='text-[#CE2929]'></AiFillHeart> 145</p>

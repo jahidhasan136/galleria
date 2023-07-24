@@ -60,7 +60,7 @@ const FeaturedNfts = () => {
 
                             {/* card ONE */}
                             <SwiperSlide>
-                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                                     <div className='mb-4 relative'>
                                         <img className='w-full' src={image1.src} alt="" />
                                         <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full flex items-center'><AiFillHeart className='text-[#CE2929]'></AiFillHeart> 120</p>
@@ -88,7 +88,7 @@ const FeaturedNfts = () => {
 
                             {/* card tWO */}
                             <SwiperSlide>
-                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                                     <div className='mb-4 relative'>
                                         <img className='w-full' src={image2.src} alt="" />
                                         <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full flex items-center'><AiFillHeart className='text-[#CE2929]'></AiFillHeart> 90</p>
@@ -115,7 +115,7 @@ const FeaturedNfts = () => {
 
                             {/* CARD THREE */}
                             <SwiperSlide>
-                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                                     <div className='mb-4 relative'>
                                         <img className='w-full' src={image3.src} alt="" />
                                         <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full flex items-center'><AiFillHeart className='text-[#CE2929]'></AiFillHeart> 145</p>
@@ -142,7 +142,7 @@ const FeaturedNfts = () => {
 
                             {/* card FOUR */}
                             <SwiperSlide>
-                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF]'>
+                                <div className='bg-[#ffffff0d] p-[18px] rounded-2xl border border-transparent hover:border-[#6A00FF] transition-all'>
                                     <div className='mb-4 relative'>
                                         <img className='w-full' src={image2.src} alt="" />
                                         <p className='absolute top-5 right-5 bg-[#FFFFFF] text-black text-base px-4 py-[6px] rounded-full flex items-center'><AiFillHeart className='text-[#CE2929]'></AiFillHeart> 120</p>

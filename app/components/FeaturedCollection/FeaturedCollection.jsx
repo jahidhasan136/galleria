@@ -67,7 +67,7 @@ const FeaturedCollection = () => {
 
                                 <SwiperSlide>
                                     <div className='flex justify-center gap-[44px]'>
-                                        <div className='bg-[#ffffff0d] p-[16px] md:p-[30px] rounded-[14px] border border-transparent hover:border-[#6A00FF]'>
+                                        <div className='bg-[#ffffff0d] p-[16px] md:p-[30px] rounded-[14px] border border-transparent hover:border-[#6A00FF] transition-all'>
                                             <div className='flex justify-between items-center'>
                                                 <div className='flex sm:items-center items-start gap-[14px]'>
                                                     <div className='relative'>
@@ -105,7 +105,7 @@ const FeaturedCollection = () => {
 
                                 <SwiperSlide>
                                     <div className='flex justify-center gap-[44px]'>
-                                        <div className='bg-[#ffffff0d] p-[16px] md:p-[30px] rounded-[14px] border border-transparent hover:border-[#6A00FF]'>
+                                        <div className='bg-[#ffffff0d] p-[16px] md:p-[30px] rounded-[14px] border border-transparent hover:border-[#6A00FF] transition-all'>
                                             <div className='flex justify-between items-center'>
                                                 <div className='flex sm:items-center items-start gap-[14px]'>
                                                     <div className='relative'>
@@ -142,7 +142,7 @@ const FeaturedCollection = () => {
 
                                 <SwiperSlide>
                                     <div className='flex justify-center gap-[44px]'>
-                                        <div className='bg-[#ffffff0d] p-[16px] md:p-[30px] rounded-[14px] border border-transparent hover:border-[#6A00FF]'>
+                                        <div className='bg-[#ffffff0d] p-[16px] md:p-[30px] rounded-[14px] border border-transparent hover:border-[#6A00FF] transition-all'>
                                             <div className='flex justify-between items-center'>
                                                 <div className='flex sm:items-center items-start gap-[14px]'>
                                                     <div className='relative'>
@@ -179,7 +179,7 @@ const FeaturedCollection = () => {
 
                                 <SwiperSlide>
                                     <div className='flex justify-center gap-[44px]'>
-                                        <div className='bg-[#ffffff0d] p-[16px] md:p-[30px] rounded-[14px] border border-transparent hover:border-[#6A00FF]'>
+                                        <div className='bg-[#ffffff0d] p-[16px] md:p-[30px] rounded-[14px] border border-transparent hover:border-[#6A00FF] transition-all'>
                                             <div className='flex justify-between items-center'>
                                                 <div className='flex sm:items-center items-start gap-[14px]'>
                                                     <div className='relative'>

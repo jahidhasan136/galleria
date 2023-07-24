@@ -6,7 +6,7 @@ import footerShape from './footer-shape.png'
 
 const Footer = () => {
   return (
-    <footer className='footer-bg relative z-10'>
+    <footer className='footer-bg relative -z-10 mt-[100px]'>
         <img className='absolute bottom-0 left-1/2 translate-x-[-50%] -z-10' src={FooterShadow.src} alt="" />
         <img className='absolute left-0 md:top-[-30%] top-[-10%] -z-10' src={footerShape.src} alt="" />
         <div className="container">
@@ -16,7 +16,7 @@ const Footer = () => {
                 </div>
                 <form action="#">
                     <div className="mx-auto relative">
-                        <input className="w-full rounded-full px-8 xl:leading-[78px] sm:leading-[66px] leading-[54px] bg-transparent border border-[#8C889B] text-[#767676] placeholder:text-[#767676]" type="email" placeholder="Enter your email address"/>
+                        <input className="w-full rounded-full px-8 md:pr-[160px] xl:leading-[78px] sm:leading-[66px] leading-[54px] bg-transparent border border-[#8C889B] text-[#767676] placeholder:text-[#767676]" type="email" placeholder="Enter your email address"/>
                         <button className="primary-btn relative sm:absolute xl:right-[12px] xl:top-[12px] w-full sm:w-auto sm:right-[7px] top-[7px] !pt-[14px] !pb-[14px] text-white" type="submit">Submit</button>
                     </div>
                 </form>

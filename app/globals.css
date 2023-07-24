@@ -45,6 +45,16 @@
   background-size: cover;
 }
 
+.banner-bg-second {
+  background: url(components/BannerSecond/images/banner-pattern.png) top center no-repeat;
+  background-size: cover;
+}
+
+.banner-bg-third {
+  background: url(components/BannerThird/images/banner.png) top center no-repeat;
+  background-size: cover;
+}
+
 .featured-bg {
   background: url(components/FeaturedCollection/images/featured-bg.png) center center no-repeat;
   background-size: cover;
@@ -60,21 +70,29 @@
 }
 
 .primary-btn {
-  @apply bg-gradient-to-r from-[#9215C5] to-[#3116D2] font-medium rounded-full py-[20px] px-[40px] inline-block transition hover:scale-[1.05];
+  @apply bg-gradient-to-r from-[#D116BF] to-[#3016D1] font-medium rounded-full py-[20px] px-[40px] inline-block transition hover:scale-[1.05];
+}
+
+.btn-circle{
+  @apply opacity-95 p-[11px] rounded-full bg-[#ffffff1a]
+}
+.btn-circle:hover {
+  @apply bg-gradient-to-r from-[#9215C5] to-[#3116D2] font-medium rounded-full p-[11px] inline-block transition hover:scale-[1.05];
 }
 
 .btn_sm{
   @apply border rounded-full py-[14px] px-[32px] text-base inline-block transition hover:scale-[1.05];
 }
 .btn_sm:hover{
-  @apply bg-gradient-to-r from-[#9215C5] to-[#3116D2] text-base font-medium rounded-full py-[14px] px-[32px] inline-block transition hover:scale-[1.05] border-0;
+  @apply bg-gradient-to-r from-[#D116BF] to-[#3016D1] text-base font-medium rounded-full py-[14px] px-[32px] inline-block transition hover:scale-[1.05] border-0;
 }
+
 
 .mySwiper .swiper-button-prev{
   border-radius: 56px;
-  border: #E7F0FB;
+  border: 1px solid #E7F0FB;
   background: linear-gradient(131deg, rgba(255, 255, 255, 0.69) 0%, rgba(255, 255, 255, 0.55) 100%);
-  backdrop-filter: blur(25px);
+  /* backdrop-filter: blur(25px); */
   width: 56px;
   height: 56px;
   color: #FFFFFF;
@@ -82,9 +100,9 @@
 }
 .mySwiper .swiper-button-next {
   border-radius: 56px;
-  border: #E7F0FB;
+  border: 1px solid #E7F0FB;
   background: linear-gradient(131deg, rgba(255, 255, 255, 0.69) 0%, rgba(255, 255, 255, 0.55) 100%);
-  backdrop-filter: blur(25px);
+  /* backdrop-filter: blur(25px); */
   width: 56px;
   height: 56px;
   color: #FFFFFF;
@@ -92,6 +110,7 @@
 }
 .mySwiper .swiper-button-prev:hover{
   border-radius: 56px;
+  border: 0;
   background: var(--p-5, linear-gradient(90deg, #D116BF 0%, #3016D1 100%));
   backdrop-filter: blur(25px);
   width: 56px;
@@ -101,6 +120,7 @@
 }
 .mySwiper .swiper-button-next:hover{
   border-radius: 56px;
+  border: 0;
   background: var(--p-5, linear-gradient(90deg, #D116BF 0%, #3016D1 100%));
   backdrop-filter: blur(25px);
   width: 56px;
@@ -113,6 +133,139 @@
   font-size: 20px;
 }
 
+.swiper .swiper-scrollbar{
+  background-color: white;
+}
+
+/* Default styles for pagination */
+.swiper-pagination {
+  display: block;
+}
+.swiper-pagination-bullet{
+  background-color: #F000FF!important;
+  width: 12px!important;
+  height: 12px!important;
+}
+
+.swiper-slide{
+  margin-bottom: 56px;
+}
+
+/* Hide pagination on medium devices */
+@media (min-width: 768px) {
+  .swiper-pagination {
+    display: none;
+  }
+}
+
+
+.mySwiper .swiper-button-next, .mySwiper .swiper-button-prev{
+  @apply hidden md:flex
+}
+
 .offcanvas.active {
   left: 0;
 }
+
+.offcanvas:before {
+  position: absolute;
+  left: -100vh;
+  top: 0;
+  height: 100%;
+  width: 100vh;
+  content: "";
+  background: #000;
+  z-index: -1;
+  opacity: .5;
+  transition: .5s;
+}
+
+.offcanvas.active:before {
+  left: 0;
+}
+
+.card_gradient {
+  @apply bg-gradient-to-t to-[#4512B2] from-[#23074D] border border-[#D101FF] ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-swiper .swiper {
+  width: 400px;
+  height: auto;
+}
+
+.card-swiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+@media (max-width:1023px) {
+  .card-swiper .swiper {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media (max-width:425px) {
+  .card-swiper .swiper {
+    width: 240px;
+    height: auto;
+  }
+}
+
+/* .swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: rgb(0, 140, 255);
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+
+.swiper-slide:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+} */
